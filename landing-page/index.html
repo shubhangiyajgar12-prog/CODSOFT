@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTech - Future Solutions</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header / Navigation -->
+<header>
+    <div class="logo">
+        <i class="fas fa-microchip"></i> SmartTech
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header-actions">
+            <!-- Theme Toggle Button -->
+            <button id="theme-toggle" class="theme-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+        <h2>Welcome to SmartTech</h2>
+        <!-- Typing Effect Text -->
+        <p class="typing-text"></p>
+        <button class="cta-btn" onclick="scrollToFeatures()">Get Started</button>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features">
+    <h2>Our Features</h2>
+    <div class="feature-container">
+        <div class="feature-card scroll-animate">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast</h3>
+            <p>High performance and speed optimized for modern web standards.</p>
+        </div>
+        <div class="feature-card scroll-animate">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure</h3>
+            <p>Advanced encryption and security protocols for your data.</p>
+        </div>
+        <div class="feature-card scroll-animate">
+            <i class="fas fa-check-circle"></i>
+            <h3>Reliable</h3>
+            <p>99.9% uptime guarantee trusted by thousands of users.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="about-content scroll-animate">
+        <h2>About Us</h2>
+        <p>SmartTech is committed to delivering the best digital solutions with cutting-edge technology. We believe in simplicity, efficiency, and user-centric design.</p>
+        <br>
+        <p>Founded in 2024, we have helped over 500 companies transform their digital presence.</p>
+    </div>
+</section>
+
+<!-- Testimonials Section (New) -->
+<section id="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-card scroll-animate">
+            <p>"SmartTech transformed our workflow completely. Highly recommended!"</p>
+            <h4>- Sarah Johnson, CEO</h4>
+        </div>
+        <div class="testimonial-card scroll-animate">
+            <p>"The best support team I've ever worked with. Fast and reliable."</p>
+            <h4>- Mike Smith, Developer</h4>
+        </div>
+        <div class="testimonial-card scroll-animate">
+            <p>"Incredible design and speed. Our sales increased by 40%."</p>
+            <h4>- Emily Davis, Marketing</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> info@smarttech.com</p>
+            <p><i class="fas fa-phone"></i> 9876543210</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 SmartTech. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
